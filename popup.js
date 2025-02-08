@@ -38,7 +38,7 @@ async function sendAudio() {
         const response = await fetchWithCORS(`https://storage-api.salad.com/organizations/editslab/files/${fileName}`, {
             method: "PUT",
             headers: {
-                "Salad-Api-Key": "salad_cloud_user_Ol7bIKqQkBr8KtV9SpSWxSxdfIe9QPfWGMUVC2ntM4m1L2FJH"
+                "Salad-Api-Key": "salad_cloud_user_" //REMEMBER TO INSERT THE REST OF YOUR API KEY HERE
             },
             body: form
         });
