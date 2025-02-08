@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Audio Recorder",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "microphone",
+        "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "https://storage-api.salad.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
